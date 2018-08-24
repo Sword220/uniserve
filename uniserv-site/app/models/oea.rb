@@ -1,0 +1,2 @@
+class Oea < ApplicationRecord
+end
