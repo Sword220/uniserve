@@ -1,0 +1,2 @@
+class Wea < ApplicationRecord
+end
