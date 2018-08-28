@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
+import Staff from './components/Staff'
 
 class App extends React.Component {
   
@@ -8,6 +9,7 @@ class App extends React.Component {
     return(
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route exact path='/staff' component={Staff} />
       </Switch>
     )
   }
