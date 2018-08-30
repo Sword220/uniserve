@@ -3,7 +3,7 @@ import axios from 'axios'
 import styled from 'styled-components'
 
 class Staff extends React.Component {
-  state = { staff: [], name: '', title: '', email: '', phone: '' }
+  state = { staff: [] }
 
   componentDidMount() {
     axios.get('/api/staffs')
@@ -14,8 +14,23 @@ class Staff extends React.Component {
   }
 
   render() {
+    const { staff } = this.state
+
     return(
-      <div>Staff</div>
+      <div>
+        <div style={{ textAlign: 'center' }}>Staff</div>
+          <div>
+            { staff.map( s => 
+              <div key={s.id} >
+                <ul>
+                  <li>{s.image}</li>
+                  <li>{s.name}</li>
+                  <li>{s.email}</li>
+                </ul>
+              </div>
+            )}
+        </div>
+      </div>
     )
   }
 }

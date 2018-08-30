@@ -7,9 +7,12 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 8.times do 
   Staff.create(
+    image: Faker::Avatar.image,
     name: Faker::Lebowski.character,
     title: Faker::Dessert.topping,
     email: Faker::Internet.safe_email,
     phone: Faker::PhoneNumber.cell_phone,
   )
 end
+
+puts 'seeded'
