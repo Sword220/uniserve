@@ -13,7 +13,8 @@ class PubAction extends React.Component{
             justifyContent: 'center',
             border: 'solid 1px black', 
             height: '900px', 
-            marginBottom: '20px' 
+            marginBottom: '20px',
+            background: 'white', 
           }} >
           <h2>Educators on the Hill</h2>  
         </div>

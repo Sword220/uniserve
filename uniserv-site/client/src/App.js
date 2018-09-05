@@ -7,12 +7,14 @@ import Staff from './components/Staff'
 import Oea from './components/Oea'
 import Wea from './components/Wea'
 import PubAction from './components/PubAction'
+import Background from './images/Background.jpg'
 
 const BackgroundImage = styled.div`
-  background-size: auto;
-  background: lightblue;
+  background-size: cover;
+  background-image: url(${Background});
   background-repeat: no-repeat;
   background-position: center;
+  color: white !important;
 `
 
 class App extends React.Component {
