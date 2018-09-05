@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Staff from './components/Staff'
 import Oea from './components/Oea'
 import Wea from './components/Wea'
+import PubAction from './components/PubAction'
 
 const BackgroundImage = styled.div`
   background-size: auto;
@@ -25,6 +26,7 @@ class App extends React.Component {
           <Route exact path='/staff' component={Staff} />
           <Route exact path='/oea' component={Oea} />
           <Route exact path='/wea' component={Wea} />
+          <Route exact path='/pubaction' component={PubAction} />
         </Switch>
       </BackgroundImage>
     )

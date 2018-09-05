@@ -25,8 +25,13 @@ class NavBar extends React.Component {
                 </Link>
               </li>
               <li>
-              <Link to="/wea">
+                <Link to="/wea">
                   WEA
+                </Link>
+              </li>
+              <li>
+                <Link to='/pubaction'>
+                  Public Action
                 </Link>
               </li>
             </ul>
