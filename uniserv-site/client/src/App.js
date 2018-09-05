@@ -7,6 +7,7 @@ import Staff from './components/Staff'
 import Oea from './components/Oea'
 import Wea from './components/Wea'
 import PubAction from './components/PubAction'
+import MemberBen from './components/MemberBen'
 import Background from './images/Background.jpg'
 
 const BackgroundImage = styled.div`
@@ -29,6 +30,7 @@ class App extends React.Component {
           <Route exact path='/oea' component={Oea} />
           <Route exact path='/wea' component={Wea} />
           <Route exact path='/pubaction' component={PubAction} />
+          <Route exact path='/memberben' component={MemberBen} />
         </Switch>
       </BackgroundImage>
     )
