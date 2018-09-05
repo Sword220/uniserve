@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import styled from 'styled-components'
+import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Staff from './components/Staff'
 
@@ -16,6 +17,7 @@ class App extends React.Component {
   render()  {
     return(
       <BackgroundImage>
+        <NavBar />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/staff' component={Staff} />

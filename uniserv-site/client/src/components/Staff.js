@@ -26,10 +26,12 @@ class Staff extends React.Component {
                 { staff.map( s => 
                   <div key={s.id} class="card">
                     <div class="container">
-                      <div class="col m4">
+                      <div class="col m3">
                         <div class="card blue-grey">
                           <div class="card-content white-text center">
+                            <div class="card-image">
                               <img class="responsive-image" alt="" src={s.image} />
+                            </div>
                             <p>{s.name}</p>
                             <p>{s.title}</p>
                             <p>{s.phone}</p>
