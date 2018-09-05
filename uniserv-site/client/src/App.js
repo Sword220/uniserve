@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import Staff from './components/Staff'
+import Oea from './components/Oea'
+import Wea from './components/Wea'
 
 const BackgroundImage = styled.div`
   background-size: auto;
@@ -21,6 +23,8 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/staff' component={Staff} />
+          <Route exact path='/oea' component={Oea} />
+          <Route exact path='/wea' component={Wea} />
         </Switch>
       </BackgroundImage>
     )

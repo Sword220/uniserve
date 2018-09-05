@@ -16,7 +16,17 @@ class NavBar extends React.Component {
               </li>
               <li>
                 <Link to="/staff">
-                  Staff
+                  Uniserve
+                </Link>
+              </li>
+              <li>
+                <Link to="/oea">
+                  OEA
+                </Link>
+              </li>
+              <li>
+              <Link to="/wea">
+                  WEA
                 </Link>
               </li>
             </ul>
