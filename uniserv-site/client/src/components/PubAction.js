@@ -14,7 +14,8 @@ class PubAction extends React.Component{
             border: 'solid 1px black', 
             height: '900px', 
             marginBottom: '20px',
-            background: 'white', 
+            background: 'white',
+            color: 'black', 
           }} >
           <h2>Educators on the Hill</h2>  
         </div>

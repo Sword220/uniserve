@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
 import Footer from './Footer'
 
-class MemberBen extends React.Component{
+class Events extends React.Component{
   render() {
     return(
       <Fragment>
-        <h1 style={{ textAlign: 'center' }}>Member Benefits</h1>
+        <h1 style={{ textAlign: 'center' }}>Training and Events</h1>
         <div 
           class="container" 
           style={{ 
@@ -17,7 +17,7 @@ class MemberBen extends React.Component{
             background: 'white',
             color: 'black', 
           }} >
-          <h2>All the good stuff about membership</h2>  
+          <h2>Training Events and Things</h2>  
         </div>
         <Footer />
       </Fragment>
@@ -25,4 +25,4 @@ class MemberBen extends React.Component{
   }
 }
 
-export default MemberBen
+export default Events
