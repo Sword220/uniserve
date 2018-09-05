@@ -19,7 +19,6 @@ class MemberBen extends React.Component{
           }} >
           <h2>All the good stuff about membership</h2>  
         </div>
-        <Footer />
       </Fragment>
     )
   }

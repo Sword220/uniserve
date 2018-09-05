@@ -19,7 +19,6 @@ class PubAction extends React.Component{
           }} >
           <h2>Educators on the Hill</h2>  
         </div>
-        <Footer />
       </Fragment>
     )
   }

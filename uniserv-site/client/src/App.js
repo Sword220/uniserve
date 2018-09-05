@@ -2,8 +2,9 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import styled from 'styled-components'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 import Home from './components/Home'
-import Staff from './components/Staff'
+import Uniserv from './components/Uniserv'
 import Oea from './components/Oea'
 import Wea from './components/Wea'
 import PubAction from './components/PubAction'
@@ -16,6 +17,7 @@ const BackgroundImage = styled.div`
   background-image: url(${Background});
   background-repeat: no-repeat;
   background-position: center;
+  font-family: trebuchet;
   color: white !important;
 `
 
@@ -27,13 +29,14 @@ class App extends React.Component {
         <NavBar />
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/staff' component={Staff} />
+          <Route exact path='/uniserv' component={Uniserv} />
           <Route exact path='/oea' component={Oea} />
           <Route exact path='/wea' component={Wea} />
           <Route exact path='/pubaction' component={PubAction} />
           <Route exact path='/memberben' component={MemberBen} />
           <Route exact path='/events' component={Events} />
         </Switch>
+        <Footer />
       </BackgroundImage>
     )
   }

@@ -4,7 +4,7 @@ class Footer extends React.Component {
 
   render() {
     return(
-      <footer style={{ background: '#2d557c' }}class="page-footer">
+      <footer style={{ background: '#2d557c' }} class="page-footer">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
@@ -17,10 +17,18 @@ class Footer extends React.Component {
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Links</h5>
               <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">facebook</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">uea link</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">contact us</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">some other link</a></li>
+                <li style={{ paddingBottom: '5px' }}>
+                  <a class="waves-effect waves-light btn blue">
+                    <i class="fa fa-facebook" href="facebook.com"></i>
+                    Like us on Facebook
+                  </a>
+                </li>
+                <li style={{ paddingBottom: '5px' }}>
+                  <a class="waves-effect btn" href="myuea.org" style={{ background: '#ff6633' }}>uea link</a>
+                </li>
+                <li>
+                  <a class="waves-effect btn" href="#!" style={{ background: '#ff6633' }}>contact us</a>
+                </li>
               </ul>
             </div>
           </div>

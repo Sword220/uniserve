@@ -14,11 +14,11 @@ class Wea extends React.Component{
             border: 'solid 1px black', 
             height: '900px', 
             marginBottom: '20px',
-            background: 'white', 
+            background: 'white',
+            color: 'black', 
           }} >
           <h2>WEA Stuff</h2>  
         </div>
-        <Footer />
       </Fragment>
     )
   }

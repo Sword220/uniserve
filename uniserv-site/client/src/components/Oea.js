@@ -15,10 +15,10 @@ class Oea extends React.Component{
             height: '900px', 
             marginBottom: '20px',
             background: 'white', 
+            color: 'black',
           }} >
           <h2>OEA Stuff</h2>  
         </div>
-        <Footer />
       </Fragment>
     )
   }

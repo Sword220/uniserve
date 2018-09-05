@@ -17,15 +17,15 @@ class NavBar extends React.Component {
         <nav style={{ background: '#2d557c' }} class="nav-extended">
           <div class="nav-wrapper">
             <span class="brand-logo">Logo</span>
-            <ul class="right">
+            <ul class="right hide-on-med-down">
               <li>
                 <Link to="/">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/staff">
-                  Uniserve
+                <Link to="/uniserv">
+                  Uniserv
                 </Link>
               </li>
               <li onHover={this.oeaDropdown()}>
@@ -52,7 +52,7 @@ class NavBar extends React.Component {
                 fontSize: '40px',
                 fontWeight: 'extra-bold',
               }}>
-              Uniserve
+              Uniserv
             </span>
             <ul class="right">
               <li>

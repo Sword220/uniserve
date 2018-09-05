@@ -19,7 +19,6 @@ class Events extends React.Component{
           }} >
           <h2>Training Events and Things</h2>  
         </div>
-        <Footer />
       </Fragment>
     )
   }
