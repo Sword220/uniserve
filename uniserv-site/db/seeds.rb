@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 8.times do 
   Staff.create(
-    image: Faker::Avatar.image,
-    name: Faker::Lebowski.character,
+    image: Faker::Avatar.image("50 x 50"),
+    name: Faker::GameOfThrones.character,
     title: Faker::Dessert.topping,
     email: Faker::Internet.safe_email,
     phone: Faker::PhoneNumber.cell_phone,
