@@ -1,6 +1,16 @@
 import React, { Fragment } from 'react'
+import axios from 'axios'
 
 class Oea extends React.Component{
+  state = { staff: [] }
+
+  componentDidMount() {
+    axios.get('/api/oeas')
+      .then( res => {
+        this.setState({ staff: res.data })
+      })
+  }
+  
   render() {
     return(
       <Fragment>

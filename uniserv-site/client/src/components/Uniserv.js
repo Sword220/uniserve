@@ -19,7 +19,7 @@ class Uniserv extends React.Component {
     return(
       <Fragment>
         <div>
-          <h1 style={{ textAlign: 'center' }}>Uniserv</h1>
+          <h1 style={{ textAlign: 'center' }}>Staff</h1>
             <div>
               <div class="row">
                 { staff.map( s => 
