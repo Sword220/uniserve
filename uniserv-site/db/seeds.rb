@@ -6,33 +6,30 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 8.times do 
-  Staff.create(
-    image: Faker::Avatar.image("50x50"),
-    name: Faker::GameOfThrones.character,
-    title: Faker::Company.profession,
-    email: Faker::Internet.safe_email,
-    phone: Faker::PhoneNumber.cell_phone,
-  )
+  name = Faker::GameOfThrones.character
+  image = Faker::Avatar.image(name, "50x50")
+  title = Faker::Company.profession
+  email = Faker::Internet.safe_email
+  phone = Faker::PhoneNumber.cell_phone
+  Staff.create(name: name, image: image, title: title, email: email, phone: phone)
 end
 
 9.times do
-  Wea.create(
-    image: Faker::Avatar.image("50x50"),
-    name: Faker::GameOfThrones.character,
-    title: Faker::Company.profession,
-    email: Faker::Internet.safe_email,
-    phone: Faker::PhoneNumber.cell_phone,
-  )
+  name = Faker::GameOfThrones.character
+  image = Faker::Avatar.image(name, "50x50")
+  title = Faker::Company.profession
+  email = Faker::Internet.safe_email
+  phone = Faker::PhoneNumber.cell_phone
+  Wea.create(name: name, image: image, title: title, email: email, phone: phone)
 end
 
 11.times do
-  Oea.create(
-    image: Faker::Avatar.image("50x50"),
-    name: Faker::GameOfThrones.character,
-    title: Faker::Company.profession,
-    email: Faker::Internet.safe_email,
-    phone: Faker::PhoneNumber.cell_phone,
-  )
+  name = Faker::GameOfThrones.character
+  image = Faker::Avatar.image(name, "50x50")
+  title = Faker::Company.profession
+  email = Faker::Internet.safe_email
+  phone = Faker::PhoneNumber.cell_phone
+  Oea.create(name: name, image: image, title: title, email: email, phone: phone)
 end
 
 puts 'seeded'

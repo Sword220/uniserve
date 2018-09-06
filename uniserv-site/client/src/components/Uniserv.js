@@ -28,10 +28,10 @@ class Uniserv extends React.Component {
                       <div class="col m3">
                         <div class="card blue-grey">
                           <div class="card-content white-text center">
+                            <p>{s.name}</p>
                             <div class="card-image">
                               <img class="responsive-image" alt="" src={s.image} />
                             </div>
-                            <p>{s.name}</p>
                             <p>{s.title}</p>
                             <p>{s.phone}</p>
                             <p>{s.email}</p>
