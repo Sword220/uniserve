@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import Footer from './Footer'
 
 class Oea extends React.Component{
   render() {

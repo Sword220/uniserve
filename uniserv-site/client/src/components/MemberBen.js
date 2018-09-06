@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import Footer from './Footer'
 
 class MemberBen extends React.Component{
   render() {

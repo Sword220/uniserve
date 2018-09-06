@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
-import Footer from './Footer'
 
 class Uniserv extends React.Component {
   state = { staff: [] }

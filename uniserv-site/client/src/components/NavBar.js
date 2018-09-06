@@ -39,8 +39,8 @@ class NavBar extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to='/pubaction'>
-                  Public Action
+                <Link to='/polaction'>
+                  Political Action
                 </Link>
               </li>
             </ul>

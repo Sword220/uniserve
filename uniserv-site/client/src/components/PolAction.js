@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
-import Footer from './Footer'
 
-class PubAction extends React.Component{
+class PolAction extends React.Component{
   render() {
     return(
       <Fragment>
@@ -24,4 +23,4 @@ class PubAction extends React.Component{
   }
 }
 
-export default PubAction
+export default PolAction

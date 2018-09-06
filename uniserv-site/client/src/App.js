@@ -7,7 +7,7 @@ import Home from './components/Home'
 import Uniserv from './components/Uniserv'
 import Oea from './components/Oea'
 import Wea from './components/Wea'
-import PubAction from './components/PubAction'
+import PolAction from './components/PolAction'
 import MemberBen from './components/MemberBen'
 import Events from './components/Events'
 import Background from './images/Background.jpg'
@@ -32,7 +32,7 @@ class App extends React.Component {
           <Route exact path='/uniserv' component={Uniserv} />
           <Route exact path='/oea' component={Oea} />
           <Route exact path='/wea' component={Wea} />
-          <Route exact path='/pubaction' component={PubAction} />
+          <Route exact path='/polaction' component={PolAction} />
           <Route exact path='/memberben' component={MemberBen} />
           <Route exact path='/events' component={Events} />
         </Switch>
