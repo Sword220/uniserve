@@ -4,7 +4,7 @@ class PolAction extends React.Component{
   render() {
     return(
       <Fragment>
-        <h1 style={{ textAlign: 'center' }}>Public Action</h1>
+        <h1 style={{ textAlign: 'center' }}>Political Action</h1>
         <div 
           class="container" 
           style={{ 
