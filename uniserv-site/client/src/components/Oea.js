@@ -19,26 +19,26 @@ class Oea extends React.Component{
         <h1 style={{ textAlign: 'center' }}>OEA Staff</h1>
         <div>
           <div class="row">
-                { staff.map( s => 
-                  <div key={s.id} class="card">
-                    <div class="container">
-                      <div class="col m3">
-                        <div class="card blue-grey">
-                          <div class="card-content white-text center">
-                            <p>{s.name}</p>
-                            <div class="card-image">
-                              <img class="responsive-image" alt="" src={s.image} />
-                            </div>
-                            <p>{s.title}</p>
-                            <p>{s.phone}</p>
-                            <p>{s.email}</p>
+              { staff.map( s => 
+                <div key={s.id} class="card">
+                  <div class="container">
+                    <div class="col m3">
+                      <div class="card blue-grey">
+                        <div class="card-content white-text center">
+                          <p>{s.name}</p>
+                          <div class="card-image">
+                            <img class="responsive-image" alt="" src={s.image} />
                           </div>
+                          <p>{s.title}</p>
+                          <p>{s.phone}</p>
+                          <p>{s.email}</p>
                         </div>
                       </div>
                     </div>
                   </div>
-                )}
-              </div>
+                </div>
+              )}
+          </div>
         </div>
       </Fragment>
     )

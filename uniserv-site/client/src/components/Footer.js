@@ -18,8 +18,8 @@ class Footer extends React.Component {
               <h5 class="white-text">Links</h5>
               <ul>
                 <li style={{ paddingBottom: '5px' }}>
-                  <a class="waves-effect waves-light btn blue">
-                    <i class="fa fa-facebook" href="facebook.com"></i>
+                <a class="waves-effect waves-light btn social facebook" style={{ background: '#3b5998' }}>
+                  <i class="fa fa-facebook"></i>
                     Like us on Facebook
                   </a>
                 </li>
@@ -33,10 +33,9 @@ class Footer extends React.Component {
             </div>
           </div>
         </div>
-        <div class="footer-copyright">
+        <div>
           <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            © 2018 Uniserv || web design by Flawless Blade inc.
           </div>
         </div>
       </footer>
