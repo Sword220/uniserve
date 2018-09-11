@@ -10,6 +10,7 @@ import Wea from './components/Wea'
 import PolAction from './components/PolAction'
 import MemberBen from './components/MemberBen'
 import Events from './components/Events'
+import Contact from './components/Contact'
 import Background from './images/Background.jpg'
 
 const BackgroundImage = styled.div`
@@ -35,6 +36,7 @@ class App extends React.Component {
           <Route exact path='/polaction' component={PolAction} />
           <Route exact path='/memberben' component={MemberBen} />
           <Route exact path='/events' component={Events} />
+          <Route exact path='/contact' component={Contact} />
         </Switch>
         <Footer />
       </BackgroundImage>
