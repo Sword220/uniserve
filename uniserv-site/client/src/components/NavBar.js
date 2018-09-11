@@ -39,7 +39,7 @@ class NavBar extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to='/polaction'>
+                <Link to="/polaction">
                   Political Action
                 </Link>
               </li>
@@ -63,6 +63,11 @@ class NavBar extends React.Component {
               <li>
                 <Link to="/events">
                   Training and Events
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact">
+                  Contact Us
                 </Link>
               </li>
             </ul>

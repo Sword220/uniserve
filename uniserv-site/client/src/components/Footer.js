@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 class Footer extends React.Component {
 
@@ -27,7 +28,9 @@ class Footer extends React.Component {
                   <a class="waves-effect btn" href="myuea.org" style={{ background: '#ff6633' }}>uea link</a>
                 </li>
                 <li>
-                  <a class="waves-effect btn" href="#!" style={{ background: '#ff6633' }}>contact us</a>
+                  <Link to="/contact">
+                  <a class="waves-effect btn"style={{ background: '#ff6633' }}>contact us</a>
+                  </Link>
                 </li>
               </ul>
             </div>
