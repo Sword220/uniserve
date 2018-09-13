@@ -1,0 +1,15 @@
+#form_container {
+  background: white;
+  height: 500px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+}
+#form_style {
+  width: 800px;
+  color: black;
+}
+#label_style {
+  font-size: 16px;
+  color: black;
+}
