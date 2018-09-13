@@ -25,7 +25,7 @@ class Footer extends React.Component {
                   </a>
                 </li>
                 <li style={{ paddingBottom: '5px' }}>
-                  <a class="waves-effect btn" href="myuea.org" style={{ background: '#ff6633' }}>uea link</a>
+                  <a class="waves-effect waves-green btn" href="myuea.org" style={{ background: '#ff6633' }}>uea link</a>
                 </li>
                 <li>
                   <Link to="/contact">
